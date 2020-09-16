@@ -72,10 +72,8 @@ void kolam(){
   ellipse(400, 450, 450, 125);
 }
 
-
-
 void airterjun(){
-  fill(#3F76E8);
+  fill(#1820ED);
   rect(350, 250, 150, 255);
 }
 

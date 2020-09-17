@@ -33,7 +33,7 @@ void matahari(){
   d=second();
   smooth(30);
   strokeWeight(15);
-    fill(#F74F11);
+    fill(255,255,0);
   ellipse(78, 100+3*d, 100, 100);
 }  
 

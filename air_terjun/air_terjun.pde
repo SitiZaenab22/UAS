@@ -68,6 +68,16 @@ fill(#14D815);
 triangle(0,250,370,250,200,150); 
 triangle(370,250,700,250,510,150);
 }
+
+void rumah(){
+fill(0,0,255);
+triangle(120,350,90,375,150,375);
+fill(#FFFFFF);
+rect(90,375,60,30);
+fill(255,255,255);
+arc(120,405,30,50,(180*PI)/180,(0*PI)/180);
+}
+
 void kolam(){
   fill(#3F76E8);
   ellipse(400, 450, 450, 125);
@@ -87,4 +97,5 @@ void draw(){
   airterjun();
   kolam();
   gunung();
+  rumah();
 }

@@ -96,6 +96,23 @@ void airterjun(){
   rect(350, 250, 150, 255);
 }
 
+void hujan(){
+fill(255);
+rect(400,5+20*z,1,10);
+rect(100,10+21*z,1,10);
+rect(110,15+22*z,1,10);
+rect(130,17+20*z,1,10);
+rect(10,10+25*z,1,10);
+rect(15,12+22*z,1,10);
+rect(20,25+20*z,1,10);
+rect(13,80+22*z,1,10);
+rect(456,105+57*z,1,10);
+rect(501,130+5*z,1,10);
+rect(510,165+12*z,1,10);
+rect(530,172+41*z,1,10);
+rect(566,190+56*z,1,10);
+}
+
 void draw(){
   background(#5FCBEA);
   matahari();
@@ -106,4 +123,5 @@ void draw(){
   kolam();
   gunung();
   rumah();
+  hujan();
 }

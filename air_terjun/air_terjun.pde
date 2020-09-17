@@ -17,7 +17,7 @@ ellipse(100+a,100,70,45);
 ellipse(150+a,100,85,65);
 ellipse(200+a,100,70,45);
 
-fill(#FCF9F7);
+fill(#A9A9A9);
 ellipse(400+a,100,70,45);
 ellipse(350+a,100,85,65);
 ellipse(200+a,100,70,45);

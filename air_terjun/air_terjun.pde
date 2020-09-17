@@ -97,7 +97,7 @@ void kolam(){
 
 void airterjun(){
   fill(#1820ED);
-  rect(350, 250, 150, 255);
+  rect(350, 250, 100, 255);
 }
 
 void hujan(){

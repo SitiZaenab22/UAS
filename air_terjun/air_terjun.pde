@@ -54,9 +54,9 @@ void pohon(){
   triangle(130,220,80,220,105,130);
 }
 void tebing(){
-  fill(#434343);
+  fill(#626161);
   rect(0,250,700,300);
-  fill(#6A6A6A);
+  fill(#ED361A);
   ellipse(70,300,50,50);
   ellipse(130,300,50,50);
   ellipse(190,300,50,50);

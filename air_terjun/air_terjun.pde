@@ -107,6 +107,8 @@ void airterjun(){
 }
 
 void hujan(){
+   int z;
+  z=second();
 fill(255);
 rect(400,5+20*z,1,10);
 rect(100,10+21*z,1,10);

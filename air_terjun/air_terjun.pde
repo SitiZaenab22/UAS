@@ -1,4 +1,5 @@
 float a ;
+float x,y,z;
 
 void setup(){
   
@@ -12,19 +13,19 @@ void awan(float x,float y){
 }
 noStroke();
 fill(#FCF9F7);
-ellipse(100,100,70,45);
-ellipse(150,100,85,65);
-ellipse(200,100,70,45);
+ellipse(100+a,100,70,45);
+ellipse(150+a,100,85,65);
+ellipse(200+a,100,70,45);
 
 fill(#FCF9F7);
-ellipse(400,100,70,45);
-ellipse(350,100,85,65);
-ellipse(200,100,70,45);
+ellipse(400+a,100,70,45);
+ellipse(350+a,100,85,65);
+ellipse(200+a,100,70,45);
 
 fill(#FCF9F7);
-ellipse(600,100,70,45);
-ellipse(650,100,85,65);
-ellipse(700,100,70,45);
+ellipse(600+a,100,70,45);
+ellipse(650+a,100,85,65);
+ellipse(700+a,100,70,45);
 }
 
 void matahari(){

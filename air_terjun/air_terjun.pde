@@ -29,8 +29,12 @@ ellipse(700+a,100,70,45);
 }
 
 void matahari(){
-  fill(#F74F11);
-  ellipse(100, 70, 100, 100);
+   int d;
+  d=second();
+  smooth(30);
+  strokeWeight(15);
+    fill(#F74F11);
+  ellipse(78, 100+3*d, 100, 100);
 }  
 
 void pohon(){
